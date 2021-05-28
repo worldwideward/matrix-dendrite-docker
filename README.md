@@ -1,4 +1,4 @@
-# Matrix Dendrite in DOCKER
+# Matrix Dendrite in Docker
 
 Dendrite is a Matrix implementation in Go. This means it is superfast and cannot sink.  
 
