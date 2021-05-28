@@ -1,0 +1,5 @@
+data/*.pem
+data/*.key
+data/*.crt
+data/*.db
+data/dendrite.yaml

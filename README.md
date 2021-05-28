@@ -6,7 +6,7 @@ Dendrite version: 0.3.11
 
 To build an image with a newer version, just overwrite the `VERSION` variable in the Dockerfile.
 
-Rename the file `data/config.yaml.sample` as `data/dendrite.yaml` and adjust to your environment.  
+Rename the file `config.yaml.sample` as `data/dendrite.yaml` and adjust to your environment.  
 
 Server keys are generated in `/opt` when the container starts for the first time.  
 
