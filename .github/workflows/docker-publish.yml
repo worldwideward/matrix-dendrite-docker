@@ -23,8 +23,8 @@ jobs:
         run: |
           docker build . -t $IMAGE_NAME
           docker run --name $IMAGE_NAME -p 8008:8008 -d $IMAGE_NAME
-          sleep 3
-          curl -i http://localhost:8008/
+          #sleep 10
+          #curl -i http://localhost:8008/
           docker rm --force $IMAGE_NAME
 
   push:
